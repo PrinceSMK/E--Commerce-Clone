@@ -1,0 +1,19 @@
+.words{
+    font-size: 18px;
+    font-style: italic;
+}
+.inputgroup{
+    padding-right: 180px;
+    padding-left: 200px;
+}
+#formtext{
+    text-align: center;
+    font-size: 16px;
+}
+.containernews{
+    text-align: center;
+    
+}
+.cardtitle{
+    font-weight: bold;
+}

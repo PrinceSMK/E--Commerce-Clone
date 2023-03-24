@@ -1,0 +1,28 @@
+.accordion{
+    padding-right: 350px;
+    margin-right:1250px;
+}
+.sidebarimages{
+    width: 65%;
+    height: 86%;
+    padding-left: 3%;
+    margin-left: 18%;
+    margin-top: 8%;
+}
+.sidebartext{
+    margin-left: 31%;
+}
+.sidebarcardmain{
+    margin-left: 12.4%;
+    margin-top: -18%;
+    margin-bottom: -174px;
+    padding-bottom: 13%;
+}
+.sidebarcardmain2{
+    margin-left: 12.3%;
+    margin-top: -13%;
+}
+.item{
+    font-weight: bold;
+    font-size: 20px;
+}

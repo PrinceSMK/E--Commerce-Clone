@@ -1,0 +1,77 @@
+.saleimage{
+    width: 40%;
+    height: auto;
+    /* margin-top: -245px; */
+    margin-top: -20%;
+    margin-left: 4%;
+
+    /* margin-left: 50px; */
+}
+.darkskin{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 48%;
+    /* margin-block: 72px; */
+    margin-block: 5%;
+
+}
+.rupees{
+    font-size: 17px;
+    margin-left: 49%;
+    /* margin-top: -55px; */
+    margin-top: -5%;
+    font-weight: bold;
+    color: black;
+
+}
+.rp{
+    font-size: 17px;
+    margin-left: 55%;
+    margin-top: -3.8%;
+    font-size: 145%;
+    color: goldenrod;
+    
+}
+.incrementfunction{
+    display: flex;
+    padding: 1%;
+    padding-right: 1.5%;
+    margin-left: 48.5%;
+}
+.countnumber{
+    margin-right: 5px;
+}
+.decrement{
+    margin-left: 0.5%;
+
+}
+.increment{
+    margin-left: 0.25%;
+}
+.Salebutton{
+    margin-left: 1vw;
+    padding-right: -2%;
+    margin-right: -2%;
+}
+.tags{
+    display: flex;
+    margin-top: 0%;
+    margin-left: 49%;
+    font-size: 100%;
+    color: goldenrod;
+
+}
+.atc{
+    margin-left: 1%;
+    color: goldenrod;
+}
+.RelatedProducts{
+    font-weight: bold;
+    font-size: 3%;
+    text-align: center;
+    margin-top: 5%;
+}
+.cst{
+    color: goldenrod;
+
+}

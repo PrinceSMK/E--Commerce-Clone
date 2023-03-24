@@ -1,0 +1,55 @@
+.firstname{
+    padding-right: 0px;
+    margin-right: 50px;
+    margin-left: 17px;
+}
+.lastname{
+    margin-right: 110px;
+    margin-left: -280px;
+
+}
+.firsttext{
+    margin-left: 50px;
+}
+.lasttext{
+    padding-left: 10px;
+
+}
+.couponbutton{
+    margin-left: 55px;
+}
+.PopoverHeading{
+    background-color: black;
+    color: white;
+}
+.formfield{
+    width: 50%;
+}
+.billingdetails{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.textformlast{
+    margin-left: 17px;
+}
+.formplaceorderbutton{
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.yourorder{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.listwidths{
+    width: 70%;
+}
+.mainform{
+    display: flex;
+    margin-left: 60%;
+    margin-top: -1187px;
+    margin-bottom: 800px;
+    
+}
