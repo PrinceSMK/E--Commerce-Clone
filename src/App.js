@@ -14,6 +14,7 @@ import Login from "./components/Login";
 import Context from './Hooks/ContextAPI/Context';
 import Reducer from './Hooks/Reducer.js/Reducer';
 import CallBack from './Hooks/CallBack';
+import UserCard from './components/FileUpload';
 
 import {Routes, Route} from 'react-router-dom'
 
@@ -27,7 +28,7 @@ function App() {
 <Routes>
   
   
-<Route path='/' element={ <> <Caraousel />, <Cards /></>} />
+<Route path='/' element={ <> <Caraousel />, <Cards title={"Boski"} /></>} />
 <Route path='/about' element={ <> <About /></>} /> 
 <Route path='/sidebar' element={ <> <Sidebar /></>} /> 
 <Route path='/form' element={ <><Forms /></>} /> 
@@ -40,6 +41,7 @@ function App() {
 <Route path='/context' element={ <><Context/></>} /> 
 <Route path='/reducer' element={ <><Reducer/></>} /> 
 <Route path='/callback' element={ <><CallBack/></>} /> 
+<Route path='/upload' element={ <><UserCard/></>} /> 
 
 
 

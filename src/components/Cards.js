@@ -7,7 +7,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import { Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-function Cards() {
+function Cards(props) {
   return (
     <div>
 
@@ -18,7 +18,7 @@ function Cards() {
       <Card className='me-3 ms-3' >
       <Nav.Link as={Link} to="/sidebar"><Card.Img variant="top" src="/images/img1.jpg" /></Nav.Link>
         <Card.Body>
-        <Nav.Link as={Link} to="/sidebar" className='ms-5 ' > <Card.Title  className='cardtitle'>Boski</Card.Title></Nav.Link>
+        <Nav.Link as={Link} to="/sidebar" className='ms-5 ' > <Card.Title  className='cardtitle'>{props.title}</Card.Title></Nav.Link>
           
         </Card.Body>
         <Card.Footer>
